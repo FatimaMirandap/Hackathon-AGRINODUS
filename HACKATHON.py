@@ -149,7 +149,7 @@ st.markdown(f"""
 <iframe src="{tableau_url}" width="100%" height="827px"></iframe>
 """, unsafe_allow_html=True)
 
-Dashboard = Image.open("images/Dashboard.jpeg")  # Cambia esto a la URL de tu logo
+Dashboard = Image.open("images/DashboardP.png")  # Cambia esto a la URL de tu logo
 st.image(Dashboard, width=500)
 
 # Datos ficticios para mostrar el análisis (puedes conectar datos reales de NASA)
