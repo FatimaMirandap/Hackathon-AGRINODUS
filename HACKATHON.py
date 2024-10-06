@@ -106,8 +106,7 @@ st.markdown("<h2 class='header'>Análisis de Datos</h2>", unsafe_allow_html=True
 st.markdown("<p class='text'>Aquí se muestran algunos datos obtenidos de NASA, presentados en gráficos.</p>", unsafe_allow_html=True)
 
 # URL del dashboard publicado en Tableau Public
-tableau_url = "https://public.tableau.com/views/Libro3_17282442479910/Dashboard1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
-
+tableau_url = " https://public.tableau.com/views/Libro3_17282442479910/Dashboard1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" 
 # Embeber el dashboard usando un iframe
 st.markdown("""
 <div class='tableauPlaceholder' id='viz1728244262030' style='position: relative'>
