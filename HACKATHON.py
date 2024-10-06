@@ -7,8 +7,8 @@ import streamlit.components.v1 as components
 
 
 # Definir el logo y el banner
-logo = Image.open("C:/Users/Fatim/Downloads/Homework 9no/Trends in Data Science/streamlitenv/logo.jpg")  # Cambia esto a la URL de tu logo
-banner = Image.open("C:/Users/Fatim/Downloads/Homework 9no/Trends in Data Science/streamlitenv/agri.jpg")  # Cambia esto a la URL de tu banner
+logo = Image.open("images/logo.jpg")  # Cambia esto a la URL de tu logo
+banner = Image.open("images/agri.jpg")  # Cambia esto a la URL de tu banner
 
 # Insertar el banner y el logo
 st.image(banner, use_column_width=True)
