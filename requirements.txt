@@ -1,0 +1,4 @@
+streamlit
+matplotlib
+pandas
+Pillow  # Si estás usando la librería Pillow para imágenes
