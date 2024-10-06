@@ -107,7 +107,7 @@ st.markdown("<p class='text'>Aquí se muestran algunos datos obtenidos de NASA, 
 
 
 Dashboard = Image.open("images/DashboardP.png")  # Cambia esto a la URL de tu logo
-st.image(Dashboard, width=500)
+st.image(Dashboard, use_column_width=True)
 
 # Datos ficticios para mostrar el análisis (puedes conectar datos reales de NASA)
 data = pd.DataFrame({
