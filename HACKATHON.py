@@ -143,6 +143,8 @@ st.markdown("""
 </script>
 """, unsafe_allow_html=True)
 
+Dashboard = Image.open("images/Dashboard.jpeg")  # Cambia esto a la URL de tu logo
+st.image(Dashboard, width=500)
 
 # Datos ficticios para mostrar el análisis (puedes conectar datos reales de NASA)
 data = pd.DataFrame({
