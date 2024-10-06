@@ -105,10 +105,6 @@ Tecnología 2: Text-to-speech por radio. Esta tecnología dará avisos diarios r
 st.markdown("<h2 class='header'>Análisis de Datos</h2>", unsafe_allow_html=True)
 st.markdown("<p class='text'>Aquí se muestran algunos datos obtenidos de NASA, presentados en gráficos.</p>", unsafe_allow_html=True)
 
-st.markdown("""
-<iframe src="https://public.tableau.com/views/Predicciones07octubre/Dashboard1?:language=es-ES&:display_count=y&:origin=viz_share_link" 
-width="100%" height="800px"></iframe>
-""", unsafe_allow_html=True)
 
 Dashboard = Image.open("images/DashboardP.png")  # Cambia esto a la URL de tu logo
 st.image(Dashboard, width=500)
