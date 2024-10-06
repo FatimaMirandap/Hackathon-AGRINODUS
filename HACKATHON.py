@@ -105,48 +105,9 @@ Tecnología 2: Text-to-speech por radio. Esta tecnología dará avisos diarios r
 st.markdown("<h2 class='header'>Análisis de Datos</h2>", unsafe_allow_html=True)
 st.markdown("<p class='text'>Aquí se muestran algunos datos obtenidos de NASA, presentados en gráficos.</p>", unsafe_allow_html=True)
 
-# Embeber el código del dashboard de Tableau usando st.markdown con unsafe_allow_html
 st.markdown("""
-<div class='tableauPlaceholder' id='viz1728246035950' style='position: relative'>
-  <noscript>
-    <a href='#'>
-      <img alt='Predicciones Mérida Yucatán 07 de octubre' 
-      src='https://public.tableau.com/static/images/GK/GKBH23GDB/1_rss.png' style='border: none' />
-    </a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='embed_code_version' value='3' /> 
-    <param name='path' value='shared/GKBH23GDB' /> 
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/GK/GKBH23GDB/1.png' />
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-    <param name='language' value='es-ES' />
-  </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1728246035950');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  if (divElement.offsetWidth > 800) { vizElement.style.width='1000px'; vizElement.style.height='827px';} 
-  else if (divElement.offsetWidth > 500) { vizElement.style.width='1000px'; vizElement.style.height='827px';} 
-  else { vizElement.style.width='100%'; vizElement.style.height='1427px';} 
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
-""", unsafe_allow_html=True)
-
-
-# URL del dashboard publicado en Tableau Public
-tableau_url = "https://public.tableau.com/views/Libro3_17282442479910/Dashboard1"  # Usa tu URL
-
-# Embeber el dashboard usando un iframe
-st.markdown(f"""
-<iframe src="{tableau_url}" width="100%" height="827px"></iframe>
+<iframe src="https://public.tableau.com/views/Predicciones07octubre/Dashboard1?:language=es-ES&:display_count=y&:origin=viz_share_link" 
+width="100%" height="800px"></iframe>
 """, unsafe_allow_html=True)
 
 Dashboard = Image.open("images/DashboardP.png")  # Cambia esto a la URL de tu logo
