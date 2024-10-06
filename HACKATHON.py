@@ -106,41 +106,11 @@ st.markdown("<h2 class='header'>Análisis de Datos</h2>", unsafe_allow_html=True
 st.markdown("<p class='text'>Aquí se muestran algunos datos obtenidos de NASA, presentados en gráficos.</p>", unsafe_allow_html=True)
 
 # URL del dashboard publicado en Tableau Public
-tableau_url = " https://public.tableau.com/views/Libro3_17282442479910/Dashboard1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" 
+tableau_url = "https://public.tableau.com/views/Libro3_17282442479910/Dashboard1"  # Usa tu URL
+
 # Embeber el dashboard usando un iframe
-st.markdown("""
-<div class='tableauPlaceholder' id='viz1728244262030' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='Predicciones Mérida Yucatán 07 de octubre' 
-    src='https://public.tableau.com/static/images/Li/Libro3_17282442479910/Dashboard1/1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='embed_code_version' value='3' /> 
-    <param name='site_root' value='' />
-    <param name='name' value='Libro3_17282442479910/Dashboard1' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/Li/Libro3_17282442479910/Dashboard1/1.png' />
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-    <param name='language' value='es-ES' />
-    <param name='filter' value='publish=yes' />
-  </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1728244262030');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  if (divElement.offsetWidth > 800) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
-  else if (divElement.offsetWidth > 500) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
-  else { vizElement.style.width='100%';vizElement.style.height='1427px';} 
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+st.markdown(f"""
+<iframe src="{tableau_url}" width="100%" height="827px"></iframe>
 """, unsafe_allow_html=True)
 
 Dashboard = Image.open("images/Dashboard.jpeg")  # Cambia esto a la URL de tu logo
