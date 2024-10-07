@@ -102,7 +102,7 @@ Technology 2: Text-to-speech by radio. This technology will provide daily alerts
 st.markdown("<h2 class='header'>Data Analysis</h2>", unsafe_allow_html=True)
 st.markdown("<p class='text'>Here are some data obtained from NASA, presented in charts.</p>", unsafe_allow_html=True)
 
-Dashboard = Image.open("images/DashboardP.png")  # Change this to your logo URL
+Dashboard = Image.open("images/Dashboard1.png")  # Change this to your logo URL
 st.image(Dashboard, use_column_width=True)
 
 # Dummy data for display (you can connect real NASA data)
